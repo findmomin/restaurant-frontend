@@ -1,0 +1,38 @@
+export const homePageHeroCarouselItems = [
+	{
+		id: '1',
+		width: 176,
+		height: 177,
+		alt: 'bowl 1',
+		src: '/img/bowl-1.webp',
+		colorPrimary: '#880808',
+		colorSecondary: '#A52A2A',
+	},
+	{
+		id: '2',
+		width: 184,
+		height: 175,
+		alt: 'bowl 2',
+		src: '/img/bowl-2.webp',
+		colorPrimary: '#0A4669',
+		colorSecondary: '#0A3659',
+	},
+	{
+		id: '3',
+		width: 177,
+		height: 179,
+		alt: 'bowl 3',
+		src: '/img/bowl-3.webp',
+		colorPrimary: '#953553',
+		colorSecondary: '#A95C68',
+	},
+	{
+		id: '4',
+		width: 178,
+		height: 177,
+		alt: 'bowl 4',
+		src: '/img/bowl-4.webp',
+		colorPrimary: '#006666',
+		colorSecondary: '#003333',
+	},
+];
