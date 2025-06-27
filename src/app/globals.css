@@ -1,1 +1,19 @@
 @import 'tailwindcss';
+
+@layer base {
+	a,
+	button,
+	span,
+	img {
+		@apply inline-block;
+	}
+
+	a,
+	button {
+		@apply cursor-pointer   outline-none;
+	}
+
+	button:disabled {
+		@apply cursor-not-allowed;
+	}
+}
