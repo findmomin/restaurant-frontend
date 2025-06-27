@@ -9,8 +9,14 @@
 	}
 
 	a,
+	button,
+	input {
+		@apply outline-none;
+	}
+
+	a,
 	button {
-		@apply cursor-pointer   outline-none;
+		@apply cursor-pointer;
 	}
 
 	button:disabled {

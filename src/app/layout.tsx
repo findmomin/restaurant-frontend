@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { poppins } from '@/fonts';
 import { cn } from '@/utils';
+import { Nav } from '@/components/nav';
 
 export const metadata: Metadata = {
 	title: 'Create Next App',
@@ -15,7 +16,10 @@ const RootLayout = ({
 }>) => {
 	return (
 		<html lang='en'>
-			<body className={cn(poppins.className)}>{children}</body>
+			<body className={cn(poppins.className)}>
+				<Nav></Nav>
+				{children}
+			</body>
 		</html>
 	);
 };
