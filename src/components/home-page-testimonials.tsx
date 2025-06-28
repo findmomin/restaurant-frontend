@@ -127,7 +127,7 @@ export const HomePageTestimonials = () => {
 						</div>
 					</div>
 				</div>
-				<div className='w-[590px] h-[590px] relative'>
+				<div className='w-[590px] h-[590px] relative -mb-[1px]'>
 					<Image src='/img/chef.png' alt='Chef' fill sizes='590px'></Image>
 				</div>
 			</div>
