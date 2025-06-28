@@ -75,7 +75,14 @@ export const Search = () => {
 				<ul className='max-h-[calc(400px-61px)] overflow-y-auto py-6.25 px-6.75 grid gap-2.5'>
 					{new Array(4).fill(null).map((_, i) => {
 						return (
-							<button key={i} className='flex items-center gap-7.25'>
+							<button
+								key={i}
+								className={cn(
+									'flex items-center gap-7.25 opacity-0 duration-1000 transition-opacity',
+									isPopoverOpen && 'opacity-100'
+								)}
+								style={{ transitionDelay: `${(i + 1) * 250}ms` }}
+							>
 								<div className='w-[82px] h-[58.4px] relative'>
 									<Image
 										src='/img/food-1.png'
